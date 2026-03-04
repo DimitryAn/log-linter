@@ -23,4 +23,5 @@ banned_sensitive_keywords:
   - "secret_token"
 
 available_special_symbols:
+  - "."
   
