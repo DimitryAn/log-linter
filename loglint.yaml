@@ -1,0 +1,26 @@
+# loglint.yaml
+available_loggers:
+  - "log"
+  - "log/slog"
+  - "go.uber.org/zap"
+
+available_levels:
+  - "Debug"
+  - "Info"
+  - "Warn"
+  - "Warning"
+  - "Error"
+  - "Fatal"
+  - "Panic"
+  - "Trace"           
+
+banned_sensitive_keywords:
+  - "password"
+  - "token"
+  - "apiKey"
+  - "api_key"
+  - "session_id"    
+  - "secret_token"
+
+available_special_symbols:
+  
