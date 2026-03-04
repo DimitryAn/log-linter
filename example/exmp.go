@@ -3,5 +3,5 @@ package basicTest
 import "log"
 
 func Example() {
-	log.Fatal("SSss")
+	log.Fatal("Server") // исправит на "server"
 }
